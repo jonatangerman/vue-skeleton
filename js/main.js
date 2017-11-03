@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import App from './src/App'
 import Router from 'vue-router'
+import 'url-search-params-polyfill';
 
 import Axios from './config/axios';
 import router from './config/router';
